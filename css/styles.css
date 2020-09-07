@@ -48,6 +48,26 @@ img {
   margin-top: 4rem;
 }
 
+@media (min-width: 35em) {
+  .main {
+    display: flex;
+    margin: 8rem 0;
+  }
+
+  .main__img {
+    flex-basis: 40%;
+  }
+
+  .main > * + * {
+    margin-top: 0;
+    margin-left: 4rem;
+  }
+
+  .content {
+    flex-basis: 60%;
+  }
+}
+
 .content__title,
 .content__description {
   font-family: 'Space Mono', monospace;
