@@ -17,8 +17,52 @@ h1 {
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.5;
+  padding: 1.25rem 1.5rem;
+}
+
+a {
+  text-decoration: none;
 }
 
 img {
   max-width: 100%;
+}
+
+.logo {
+  font-family: 'Inconsolata', monospace;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: -0.08em;
+}
+
+.content__title,
+.content__description {
+  font-family: 'Space Mono', monospace;
+}
+
+.content__title {
+  font-weight: 700;
+  font-size: 3rem;
+  letter-spacing: -0.035em;
+}
+
+.content__description {
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+.nav__link {
+  display: inline-block;
+  background-color: #333333;
+  color: #ffffff;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.875rem;
+  font-weight: 700;
+  padding: 0.5em 1em;
+}
+
+.footnote {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
