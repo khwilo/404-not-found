@@ -29,11 +29,23 @@ img {
   max-width: 100%;
 }
 
+.flow > * + * {
+  margin-top: 2rem;
+}
+
 .logo {
   font-family: 'Inconsolata', monospace;
   font-weight: 700;
   font-size: 1.5rem;
   letter-spacing: -0.08em;
+}
+
+.main {
+  margin: 5rem 0;
+}
+
+.main > * + * {
+  margin-top: 4rem;
 }
 
 .content__title,
@@ -60,6 +72,10 @@ img {
   font-size: 0.875rem;
   font-weight: 700;
   padding: 0.5em 1em;
+}
+
+.footer {
+  text-align: center;
 }
 
 .footnote {
